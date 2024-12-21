@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.13.0",
+    "@nuxt/fonts": "^0.7.1",
+    "@nuxt/icon": "^1.1.1",
+    "@nuxt/image": "^1.8.0",
+    "@nuxt/ui": "^2.17.0",
+    "nuxt": "^3.14.1592",
+    "nuxt-aos": "^1.2.5",
+    "vue": "latest",
+    "vue-responsive-video-background-player": "^2.4.1",
+    "vue-router": "latest"
+  }
+}
