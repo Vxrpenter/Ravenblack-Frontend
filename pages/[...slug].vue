@@ -7,36 +7,62 @@ import RavenblackOverview from "~/components/home/RavenblackOverview.vue";
     <source src="~/public/videos/video.webm" type="video/webm">
   </video>
 
-  <section>
-    <div class="max-w-screen-xl mx-auto px-4 py-28 gap-12 md:px-8">
-      <div>
-        <div class="py-1 space-y-5 max-w-4xl mx-auto text-center">
-          <h1>Ravenblack</h1>
+  <UContainer>
+    <section>
+      <div class="max-w-screen-xl mx-auto px-4 py-28 gap-12 md:px-8">
+        <div>
+          <div class="py-1 space-y-5 max-w-4xl mx-auto text-center">
+            <h1>Ravenblack</h1>
+          </div>
+          <p class="dark:text-white">SCP Secret Laboratory und GMOD an einem Ort</p>
         </div>
-        <p class="dark:text-white">SCP Secret Laboratory und GMOD an einem Ort</p>
+        <div class="py-3 space-x-4 space-y-5 max-w-4xl mx-auto text-center">
+          <UButton to="/ueber-uns" label="Über Uns" leading-icon="i-heroicons:pencil-square-16-solid" variant="outline" color="gray" size="xl"/>
+          <UButton to="/regelwerk" label="Regelwerk" leading-icon="i-heroicons:book-open-16-solid" variant="solid" color="primary" size="xl"/>
+        </div>
+        <div class="py-3 space-x-4 space-y-5 max-w-4xl mx-auto text-center">
+          <UButton label="ravenblack.de:7777"  trailing-icon="i-heroicons:clipboard-document-16-solid" varient="soft" color="gray" size="xl"/>
+        </div>
       </div>
-      <div class="py-3 space-x-4 space-y-5 max-w-4xl mx-auto text-center">
-        <UButton to="/ueber-uns" label="Über Uns" leading-icon="i-heroicons:pencil-square-16-solid" variant="outline" color="gray" size="xl"/>
-        <UButton to="/regelwerk" label="Regelwerk" leading-icon="i-heroicons:book-open-16-solid" variant="solid" color="primary" size="xl"/>
+      <div>
+        <UContainer data-aos="zoom-in" class="info">
+          <RavenblackOverview />
+        </UContainer>
       </div>
-      <div class="py-3 space-x-4 space-y-5 max-w-4xl mx-auto text-center">
-        <UButton label="ravenblack.de:7777"  trailing-icon="i-heroicons:clipboard-document-16-solid" varient="soft" color="gray" size="xl"/>
-      </div>
-    </div>
-    <div>
-      <UContainer class="info">
-        <RavenblackOverview />
-      </UContainer>
-    </div>
-    <div data-aos="fade-up" class="seperator">
-      <UContainer class="rules">
-        <p>test</p>
-      </UContainer>
-    </div>
-    <div class="seperator">
+    </section>
 
-    </div>
-  </section>
+    <section>
+      <div class="seperator grid grid-cols-2 gap-4">
+        <div data-aos="fade-right">
+          <UContainer class="modded">
+            <p>test</p>
+          </UContainer>
+        </div>
+
+        <div></div>
+        <div></div>
+
+        <div class="seperator grid grid-cols-3 gap-4">
+          <div data-aos="fade-left">
+            <UContainer class="vanilla">
+              <p>test</p>
+            </UContainer>
+          </div>
+        </div>
+
+        <div></div>
+        <div></div>
+
+        <div class="seperator grid grid-cols-3 gap-4">
+          <div data-aos="fade-right">
+            <UContainer class="vanilla">
+              <p>test</p>
+            </UContainer>
+          </div>
+        </div>
+      </div>
+    </section>
+  </UContainer>
 </template>
 
 <style scoped>
@@ -63,14 +89,30 @@ p {
 }
 
 .seperator {
-  margin-top: 400px;
+  margin-top: 350px;
 }
 
-.rules {
+.modded {
   background-color: #121212;
   width: 600px;
-  height: 600px;
+  height: 300px;
   border-radius: 15px;
+}
+
+.vanilla {
+  background-color: #121212;
+  width: 600px;
+  height: 300px;
+  border-radius: 15px;
+  align-self: end;
+}
+
+.events {
+  background-color: #121212;
+  width: 600px;
+  height: 300px;
+  border-radius: 15px;
+  align-self: end;
 }
 
 video {

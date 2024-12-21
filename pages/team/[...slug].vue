@@ -230,7 +230,7 @@ const teamleitung = [
 const development = [
   {
     name: 'Vxrpenter 🎄',
-    icon: '/team/vxrpenter.gif',
+    icon: '/team/vxrpenter.png',
     jobs: [
       {
         name: 'Developer',
@@ -274,25 +274,7 @@ const development = [
         link: "https://open.spotify.com/user/31cwn74s2eebjf65pt4jsllwhdtu"
       },
     ],
-  },
-  {
-    name: 'Lucasos 🎄',
-    icon: '/team/lucasos.webp',
-    jobs: [
-      {
-        name: 'Developer',
-        icon: 'i-heroicons:code-bracket-square-16-solid',
-      }
-    ],
-    quote: 'KEINS!',
-    links: [
-      {
-        name: "Keine",
-        icon: "i-heroicons:x-mark-16-solid",
-        link: "/"
-      }
-    ]
-  },
+  }
 ]
 
 const moderation = [
