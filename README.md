@@ -1,75 +1,13 @@
-# Nuxt Minimal Starter
+<h1 align="center">Ravenblack Frontend</h1>
+<h6 align="center">Das Frontend des Ravenblack SCP:SL Servers</h6>
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<div align="center">
+ <h6 xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Vxrpenter/Ravenblack-Website">Ravenblack Frontend</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/Vxrpenter/">Vxrpenter on behalf of Ravenblack</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a></h6> 
+</div>
+    
+---
+<div align="center">
+  <img width="125" src="https://github.com/user-attachments/assets/f7c2d1bf-efba-4b3d-b5bc-a4d7cdcdc985">
+  <h6>This Frontend relies on NuxtJS<p>https://nuxt.com</p></h6>
+</div>
 
-## Setup
-
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
