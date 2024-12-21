@@ -9,7 +9,7 @@ const inhaber = [
         icon: 'i-heroicons:currency-dollar-16-solid',
       }
     ],
-    quote: 'KEINS!',
+    quote: 'Faul / Nicht Existent / Sugar Daddy',
     links: [
       {
         name: "Keine",
