@@ -343,6 +343,24 @@ const moderation = [
     ],
   },
   {
+    name: 'Toilet destroyer 🎄',
+    icon: '/team/toilet.webp',
+    jobs: [
+      {
+        name: 'Moderator',
+        icon: 'i-heroicons:user-group-16-solid',
+      }
+    ],
+    quote: 'As a kid i wanted to be a racer now look at me im a racist',
+    links: [
+      {
+        name: "Steam",
+        icon: "i-bxl:steam",
+        link: "https://steamcommunity.com/profiles/76561198798681150/"
+      },
+    ],
+  },
+  {
     name: 'Fake Simon3 🎄',
     icon: '/team/fakesimon.webp',
     jobs: [
@@ -381,24 +399,6 @@ const moderation = [
 ]
 
 const support = [
-  {
-    name: 'Toilet destroyer 🎄',
-    icon: '/team/toilet.webp',
-    jobs: [
-      {
-        name: 'Sr. Supporter',
-        icon: 'i-heroicons:phone-16-solid',
-      }
-    ],
-    quote: 'As a kid i wanted to be a racer now look at me im a racist',
-    links: [
-      {
-        name: "Steam",
-        icon: "i-bxl:steam",
-        link: "https://steamcommunity.com/profiles/76561198798681150/"
-      },
-    ],
-  },
   {
     name: 'Astromarwin 🎄',
     icon: '/team/astromarwin.webp',

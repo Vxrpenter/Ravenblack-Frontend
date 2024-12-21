@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import RavenblackOverview from "~/components/home/RavenblackOverview.vue";
 </script>
 
 <template>
@@ -25,7 +25,7 @@
     </div>
     <div>
       <UContainer class="info">
-        <h2>Info der Welt</h2>
+        <RavenblackOverview />
       </UContainer>
     </div>
     <div data-aos="fade-up" class="seperator">
@@ -64,13 +64,6 @@ p {
 
 .seperator {
   margin-top: 400px;
-}
-
-.info {
-  background-color: #121212;
-  width: 800px;
-  height: 450px;
-  border-radius: 15px;
 }
 
 .rules {
