@@ -48,6 +48,8 @@ function copyToClipBoard({textToCopy}: { textToCopy: any }) {
       </div>
     </UCard>
 
+    <UDivider />
+
     <div class="m-3 grid grid-cols-3 gap-2">
       <UButton to="/servers" label="Mehr Erfahren" leading-icon="i-heroicons:academic-cap-16-solid" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-lg'}"/>
       <UButton @click="copyToClipBoard({textToCopy : 'ravenblack.de:7779'})" label="Ip Kopieren" leading-icon="i-heroicons:clipboard-document-16-solid" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-lg'}"/>
