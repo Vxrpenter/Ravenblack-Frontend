@@ -426,7 +426,7 @@ const support = [
         icon: 'i-heroicons:phone-16-solid',
       }
     ],
-    quote: 'KEINS!',
+    quote: 'Zeit ist Geld und Geld habe ich net',
     links: [
       {
         name: "Keine",

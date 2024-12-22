@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import RavenblackOverview from "~/components/home/RavenblackOverview.vue";
+import ModdedServerCard from "~/components/home/ModdedServerCard.vue";
+import VanillaServerCard from "~/components/home/VanillaServerCard.vue";
+import EventServerCard from "~/components/home/EventServerCard.vue";
 </script>
 
 <template>
@@ -21,7 +24,7 @@ import RavenblackOverview from "~/components/home/RavenblackOverview.vue";
           <UButton to="/regelwerk" label="Regelwerk" leading-icon="i-heroicons:book-open-16-solid" variant="solid" color="primary" size="xl"/>
         </div>
         <div class="py-3 space-x-4 space-y-5 max-w-4xl mx-auto text-center">
-          <UButton label="ravenblack.de:7777"  trailing-icon="i-heroicons:clipboard-document-16-solid" varient="soft" color="gray" size="xl"/>
+          <UButton label="ravenblack.de:7777"  trailing-icon="i-" varient="soft" color="gray" size="xl"/>
         </div>
       </div>
       <div>
@@ -34,9 +37,7 @@ import RavenblackOverview from "~/components/home/RavenblackOverview.vue";
     <section>
       <div class="seperator grid grid-cols-2 gap-4">
         <div data-aos="fade-right">
-          <UContainer class="modded">
-            <p>test</p>
-          </UContainer>
+          <ModdedServerCard />
         </div>
 
         <div></div>
@@ -44,9 +45,7 @@ import RavenblackOverview from "~/components/home/RavenblackOverview.vue";
 
         <div class="seperator grid grid-cols-3 gap-4">
           <div data-aos="fade-left">
-            <UContainer class="vanilla">
-              <p>test</p>
-            </UContainer>
+            <VanillaServerCard />
           </div>
         </div>
 
@@ -55,9 +54,7 @@ import RavenblackOverview from "~/components/home/RavenblackOverview.vue";
 
         <div class="seperator grid grid-cols-3 gap-4">
           <div data-aos="fade-right">
-            <UContainer class="vanilla">
-              <p>test</p>
-            </UContainer>
+            <EventServerCard />
           </div>
         </div>
       </div>
@@ -90,13 +87,6 @@ p {
 
 .seperator {
   margin-top: 350px;
-}
-
-.modded {
-  background-color: #121212;
-  width: 600px;
-  height: 300px;
-  border-radius: 15px;
 }
 
 .vanilla {

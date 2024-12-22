@@ -2,8 +2,7 @@
 const items = [{
   label: 'Robuste Server',
   icon: 'i-heroicons-information-circle',
-  defaultOpen: true,
-  content: ''
+  content: 'Unsere Server laufen fast Fehlerfrei und halten eine große Menge von Spielern aus. Auch vor DDOS Attacken sind wir geschützt. Sollten fehler auftreten, wird unser Team sich diese sofort vornehmen und den server so schnell wie möglich wieder online nehmen'
 }, {
   label: 'Professionelles und Kompetentes Team',
   icon: 'i-heroicons-arrow-down-tray',
