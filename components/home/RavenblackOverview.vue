@@ -1,23 +1,24 @@
 <script setup lang="ts">
 const items = [{
   label: 'Robuste Server',
-  icon: 'i-heroicons-information-circle',
+  defaultOpen: true,
+  icon: 'i-heroicons:bolt-16-solid',
   content: 'Unsere Server laufen fast Fehlerfrei und halten eine große Menge von Spielern aus. Auch vor DDOS Attacken sind wir geschützt. Sollten fehler auftreten, wird unser Team sich diese sofort vornehmen und den server so schnell wie möglich wieder online nehmen'
 }, {
   label: 'Professionelles und Kompetentes Team',
-  icon: 'i-heroicons-arrow-down-tray',
-  content: ''
+  icon: 'i-heroicons:user-group-16-solid',
+  content: 'Das Serverteam steht die bei Fragen und Problemen zurseite und hilft dir diese zu lösen. Eröffne einfach ein Ticket auf unserem Discord oder nutze unsere Support Funktion'
 }, {
   label: 'Qualitatives Modding',
-  icon: 'i-heroicons-eye-dropper',
-  content: ''
+  icon: 'i-heroicons:code-bracket-16-solid',
+  content: 'Wir geben uns Mühe die besten Mods für unseren Modded Server auszusuchen und gut zu Konfigurieren, um den bestmöglichen Spielspaß bieten zu können'
 }, {
   label: 'Quality of Life Features',
-  icon: 'i-heroicons-rectangle-group',
+  icon: 'i-heroicons:hand-thumb-up-16-solid',
   content: ''
 }, {
   label: 'Aktive Playerbase',
-  icon: 'i-heroicons-square-3-stack-3d',
+  icon: 'i-heroicons:identification-16-solid',
   content: ''
 }]
 </script>
@@ -33,7 +34,7 @@ const items = [{
             </div>
           </template>
 
-          <span class="truncate">{{ index + 1 }}. {{ item.label }}</span>
+          <span class="m-2 truncate">{{ index + 1 }}. {{ item.label }}</span>
 
           <template #trailing>
             <UIcon
