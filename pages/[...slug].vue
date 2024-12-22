@@ -24,7 +24,7 @@ import EventServerCard from "~/components/home/EventServerCard.vue";
           <UButton to="/regelwerk" label="Regelwerk" leading-icon="i-heroicons:book-open-16-solid" variant="solid" color="primary" size="xl"/>
         </div>
         <div class="py-3 space-x-4 space-y-5 max-w-4xl mx-auto text-center">
-          <UButton label="ravenblack.de:7777"  trailing-icon="i-" varient="soft" color="gray" size="xl"/>
+          <UButton label="ravenblack.de:7777"  trailing-icon="i-heroicons:clipboard-document-16-solid" varient="soft" color="gray" size="xl"/>
         </div>
       </div>
       <div>
@@ -58,6 +58,9 @@ import EventServerCard from "~/components/home/EventServerCard.vue";
           </div>
         </div>
       </div>
+
+      <div class="seperator"></div>
+      <div class="seperator"></div>
     </section>
   </UContainer>
 </template>
@@ -87,22 +90,6 @@ p {
 
 .seperator {
   margin-top: 350px;
-}
-
-.vanilla {
-  background-color: #121212;
-  width: 600px;
-  height: 300px;
-  border-radius: 15px;
-  align-self: end;
-}
-
-.events {
-  background-color: #121212;
-  width: 600px;
-  height: 300px;
-  border-radius: 15px;
-  align-self: end;
 }
 
 video {

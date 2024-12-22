@@ -48,9 +48,9 @@ function copyToClipBoard({textToCopy}: { textToCopy: any }) {
       </div>
     </UCard>
 
-    <div class="m-2 grid grid-cols-3 gap-2">
+    <div class="m-3 grid grid-cols-3 gap-2">
       <UButton to="/servers" label="Mehr Erfahren" leading-icon="i-heroicons:academic-cap-16-solid" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-lg'}"/>
-      <UButton @click="copyToClipBoard({textToCopy : 'ravenblack.de:7775'})" label="Serverip Kopieren" leading-icon="i-heroicons:clipboard-document-16-solid" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-lg'}"/>
+      <UButton @click="copyToClipBoard({textToCopy : 'ravenblack.de:7775'})" label="Ip Kopieren" leading-icon="i-heroicons:clipboard-document-16-solid" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-lg'}"/>
       <UButton to="/regelwerk" label="Regeln Lesen" leading-icon="i-heroicons:book-open-16-solid" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-lg'}"/>
     </div>
   </UCard>
@@ -138,7 +138,7 @@ function copyToClipBoard({textToCopy}: { textToCopy: any }) {
 .modded {
   background-color: #121212;
   width: 600px;
-  height: 300px;
+  height: 280px;
   border-radius: 15px;
 }
 
