@@ -3,6 +3,20 @@ import RavenblackOverview from "~/components/home/RavenblackOverview.vue";
 import ModdedServerCard from "~/components/home/ModdedServerCard.vue";
 import VanillaServerCard from "~/components/home/VanillaServerCard.vue";
 import EventServerCard from "~/components/home/EventServerCard.vue";
+
+const toast = useToast()
+
+function copyToClipBoard({textToCopy}: { textToCopy: any }) {
+  navigator.clipboard.writeText(textToCopy);
+
+  toast.add({
+    id: 'ip_copied',
+    title: 'Ip Kopiert',
+    description: 'Die Ip für den Modded Server wurde erfolgreich in dein Clipboard kopiert',
+    icon: 'i-heroicons:check-16-solid',
+    timeout: 5000,
+  })
+}
 </script>
 
 <template>
@@ -24,7 +38,7 @@ import EventServerCard from "~/components/home/EventServerCard.vue";
           <UButton to="/regelwerk" label="Regelwerk" leading-icon="i-heroicons:book-open-16-solid" variant="solid" color="primary" size="xl"/>
         </div>
         <div class="py-3 space-x-4 space-y-5 max-w-4xl mx-auto text-center">
-          <UButton label="ravenblack.de:7777"  trailing-icon="i-heroicons:clipboard-document-16-solid" varient="soft" color="gray" size="xl"/>
+          <UButton @click="copyToClipBoard({textToCopy : 'ravenblack.de:7777'})" label="ravenblack.de:7777"  trailing-icon="i-heroicons:clipboard-document-16-solid" varient="soft" color="gray" size="xl"/>
         </div>
       </div>
       <div>

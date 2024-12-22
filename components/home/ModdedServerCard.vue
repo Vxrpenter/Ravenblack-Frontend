@@ -16,7 +16,7 @@ function copyToClipBoard({textToCopy}: { textToCopy: any }){
 
 <template>
   <UCard class="modded card rounded-xl">
-    <UCard>
+    <UCard class="innerCard" style="background-color: #121212">
       <div class="icon-and-text">
         <p class="clause">[</p><span class="ger"><span>G</span><span>E</span><span>R</span></span><p class="clause">]</p>
         <p class="ravenblack">Ravenblack</p><br>
@@ -45,6 +45,8 @@ function copyToClipBoard({textToCopy}: { textToCopy: any }){
         </div>
       </div>
     </UCard>
+
+    <UDivider />
 
     <div class="m-3 grid grid-cols-3 gap-2">
       <UButton to="/servers" label="Mehr Erfahren" leading-icon="i-heroicons:academic-cap-16-solid" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-lg'}"/>
@@ -137,10 +139,14 @@ function copyToClipBoard({textToCopy}: { textToCopy: any }){
   font-size: 20px;
 }
 
+.innerCard {
+  margin-top: -20px
+}
+
 .modded {
   background-color: #121212;
   width: 600px;
-  height: 280px;
+  height: 265px;
   border-radius: 15px;
 }
 
