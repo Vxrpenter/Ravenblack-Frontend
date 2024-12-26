@@ -15,7 +15,7 @@ function copyToClipBoard({textToCopy}: { textToCopy: any }){
 </script>
 
 <template>
-  <UCard class="modded card rounded-xl">
+  <UCard class="moddedCard card rounded-xl">
     <UCard class="innerCard" style="background-color: #121212">
       <div class="icon-and-text">
         <p class="clause">[</p><span class="ger"><span>G</span><span>E</span><span>R</span></span><p class="clause">]</p>
@@ -143,11 +143,18 @@ function copyToClipBoard({textToCopy}: { textToCopy: any }){
   margin-top: -20px
 }
 
-.modded {
+.moddedCard {
   background-color: #121212;
   width: 600px;
   height: 265px;
   border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.moddedCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
 
 .icon-and-text {
