@@ -13,13 +13,13 @@ const items = [{
   icon: 'i-heroicons:code-bracket-16-solid',
   content: 'Wir geben uns Mühe die besten Mods für unseren Modded Server auszusuchen und gut zu Konfigurieren, um den bestmöglichen Spielspaß bieten zu können'
 }, {
-  label: 'Quality of Life Features',
-  icon: 'i-heroicons:hand-thumb-up-16-solid',
-  content: ''
+  label: 'Schnelle Antwortzeiten',
+  icon: 'i-heroicons:chart-bar-16-solid',
+  content: 'Unser Team antworted auf Fragen so schnell wie möglich und konzentriert sich dabei darauf, dein Problem so schnell und präzise wie möglich zu lösen'
 }, {
   label: 'Aktive Playerbase',
   icon: 'i-heroicons:identification-16-solid',
-  content: ''
+  content: 'Wir haben eine aktive Spielerschaft, bei der es sich lohnt vorbei zu schauen'
 }]
 </script>
 

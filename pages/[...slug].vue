@@ -37,9 +37,6 @@ function copyToClipBoard({textToCopy}: { textToCopy: any }) {
           <UButton to="/ueber-uns" label="Über Uns" leading-icon="i-heroicons:pencil-square-16-solid" variant="outline" color="gray" size="xl"/>
           <UButton to="/regelwerk" label="Regelwerk" leading-icon="i-heroicons:book-open-16-solid" variant="solid" color="primary" size="xl"/>
         </div>
-        <div class="py-3 space-x-4 space-y-5 max-w-4xl mx-auto text-center">
-          <UButton @click="copyToClipBoard({textToCopy : 'ravenblack.de:7777'})" label="Server Ip Kopieren"  trailing-icon="i-heroicons:clipboard-document-16-solid" variant="solid" color="gray" size="xl"/>
-        </div>
       </div>
       <div>
         <UContainer data-aos="zoom-in" class="info">
