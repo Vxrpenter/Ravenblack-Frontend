@@ -6,10 +6,6 @@ import EventServerCard from "~/components/home/EventServerCard.vue";
 </script>
 
 <template>
-  <video autoplay loop muted>
-    <source src="~/public/videos/video.webm" type="video/webm">
-  </video>
-
   <UContainer>
     <section>
       <div class="max-w-screen-xl mx-auto px-4 py-28 gap-12 md:px-8">

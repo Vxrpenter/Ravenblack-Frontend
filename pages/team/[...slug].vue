@@ -493,11 +493,6 @@ const support = [
 </script>
 
 <template>
-  <video autoplay loop muted>
-    <source src="~/public/videos/video.webm" type="video/webm">
-  </video>
-
-
   <UContainer>
     <div>
       <div class="py-4">

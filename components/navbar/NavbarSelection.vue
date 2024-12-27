@@ -3,7 +3,12 @@
 
 <template>
   <UButton to="/team" leading-icon="i-heroicons:user-16-solid" label="Team" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-xl'}"/>
-  <UButton to="/serverstatus" leading-icon="i-heroicons:server-16-solid" label="Server Status" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-xl'}"/>
+  <UButton leading-icon="i-heroicons:bolt-16-solid" label="Status" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-xl'}"/>
+  <p>|</p>
+  <div>
+    <UButton to="/servers" leading-icon="i-heroicons:server-stack-16-solid" label="Server" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-xl'}"/>
+  </div>
+  <p>|</p>
   <UPopover mode="hover" :popper="{ placement: 'bottom-start', strategy: 'absolute' }">
     <UButton leading-icon="i-heroicons:book-open-16-solid" label="Regelwerk" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-xl'}"/>
 
@@ -22,4 +27,11 @@
 </template>
 
 <style scoped>
+p {
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
 </style>

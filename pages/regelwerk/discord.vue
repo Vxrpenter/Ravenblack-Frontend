@@ -4,7 +4,7 @@
 
 <template>
   <UContainer>
-    <UCard>
+    <UCard data-aos="fade-up">
       <h1>Discord Regeln</h1>
       <h2>This server is german only, please respect that and don't annoy any of our members</h2>
       <br>

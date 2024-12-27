@@ -10,7 +10,8 @@
       <UContainer class="flex py-4 gap-2 lg:gap-52">
         <div data-aos="zoom-in">
           <h2>Getting Started</h2>
-          <p><NuxtLink to="/regelwerk">Lies die Regeln</NuxtLink></p>
+          <p><NuxtLink to="/regelwerk/scp">Lies die SL Regeln</NuxtLink></p>
+          <p><NuxtLink to="/servers">Suche dir einen Server aus</NuxtLink></p>
         </div>
         <div data-aos="zoom-in">
           <h2>Community</h2>
@@ -40,7 +41,7 @@
           <div class="float-left">
             <NuxtLink to="/"><h1 id="align_text">Ravenblack</h1></NuxtLink>
           </div>
-          <div data-aos="fade-right" class="float-right">
+          <div class="float-right">
             <NuxtLink to="/licencing"><p id="align_text">© 2024 Ravenblack</p></NuxtLink>
           </div>
         </UContainer>
