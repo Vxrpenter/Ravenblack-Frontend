@@ -4,7 +4,7 @@
 
 <template>
   <UContainer>
-    <UCard data-aos="fade-up">
+    <UCard data-aos="fade-up" style="background: transparent">
       <h1>Discord Regeln</h1>
       <h2>This server is german only, please respect that and don't annoy any of our members</h2>
       <br>
@@ -57,12 +57,7 @@ h2 {
   font-family: "Inter", sans-serif;
   font-weight: bold;
   text-align: center;
-  background: linear-gradient(90deg,
-  red, darkred, #000000);
-  -webkit-background-clip: text;
-  color: transparent;
-  background-size: 500% 100%;
-  background-position: 0 0;
+  color: gray;
 }
 
 .point {

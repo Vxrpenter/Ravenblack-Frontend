@@ -4,7 +4,7 @@
 
 <template>
   <UContainer>
-    <UCard data-aos="fade-up">
+    <UCard data-aos="fade-up" style="background: transparent">
       <h1 class="text-[#cc99ff]">Server Voraussetzungen:</h1>
       <br>
       <p><span class="prerequisitePoint">1.</span> Beim betreten und spielen auf diesem Server kann deine Stimme aufgezeichnet werden [z.B in Videos, Streams oder Clips].</p>
