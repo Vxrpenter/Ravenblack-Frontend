@@ -6,7 +6,6 @@
   <UContainer>
     <UCard data-aos="fade-up" style="background: transparent">
       <h1>Discord Regeln</h1>
-      <h2>This server is german only, please respect that and don't annoy any of our members</h2>
       <br>
       <p class="point">§1 - Diskriminierung</p>
       <p>Aussagen mit oder texte rassistischen, sexistischen, nationalsozialistisch, beleidigungen, belästigung, Diskriminierung und Extremismus  oder anderen Absichten sind verboten.</p>
@@ -50,14 +49,6 @@ h1 {
   color: transparent;
   background-size: 500% 100%;
   background-position: 0 0;
-}
-
-h2 {
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-  font-weight: bold;
-  text-align: center;
-  color: gray;
 }
 
 .point {
