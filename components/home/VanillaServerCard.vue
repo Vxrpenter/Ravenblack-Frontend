@@ -138,21 +138,17 @@ function copyToClipBoard({textToCopy}: { textToCopy: any }) {
 }
 
 .innerCard {
+  border-radius: 10px;
+  border: 1px solid gray;
   margin-top: -20px
 }
 
 .vanillaCard {
-  background-color: #121212;
+  background-color: transparent;
   width: 600px;
   height: 260px;
   border-radius: 15px;
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.vanillaCard:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
 
 .icon-and-text {

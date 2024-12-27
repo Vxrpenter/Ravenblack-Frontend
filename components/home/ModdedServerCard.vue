@@ -46,8 +46,6 @@ function copyToClipBoard({textToCopy}: { textToCopy: any }){
       </div>
     </UCard>
 
-    <UDivider />
-
     <div class="m-3 grid grid-cols-3 gap-2">
       <UButton to="/servers" label="Mehr Erfahren" leading-icon="i-heroicons:academic-cap-16-solid" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-lg'}"/>
       <UButton @click="copyToClipBoard({textToCopy : 'ravenblack.de:7777'})" label="Ip Kopieren" icon="i-heroicons:clipboard-document-16-solid" variant="ghost" color="gray" size="xl" :ui="{rounded: 'rounded-lg'}"/>
@@ -140,21 +138,17 @@ function copyToClipBoard({textToCopy}: { textToCopy: any }){
 }
 
 .innerCard {
+  border-radius: 10px;
+  border: 1px solid gray;
   margin-top: -20px
 }
 
 .moddedCard {
-  background-color: #121212;
+  background-color: transparent;
   width: 600px;
   height: 265px;
   border-radius: 15px;
   cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.moddedCard:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
 
 .icon-and-text {
