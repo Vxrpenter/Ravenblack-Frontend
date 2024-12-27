@@ -500,7 +500,7 @@ const support = [
       </div>
       <section class="grid grid-cols-2 gap-2">
         <div class="py-6" data-aos="fade-up" v-for="(item, index) in inhaber" :key="index">
-          <UCard class="card rounded-xl" style="background-color: #171717; width: 550px;">
+          <UCard class="card rounded-xl">
             <div class="icon-and-text">
               <NuxtImg :src="item.icon" width="80" height="80"/>
               <h1 class="name m-2">{{ item.name }}</h1>
@@ -557,7 +557,7 @@ const support = [
       </div>
       <section class="grid grid-cols-2 gap-2">
         <div class="py-6" data-aos="fade-up" v-for="(item, index) in leitung" :key="index">
-          <UCard class="card rounded-xl" style="background-color: #171717; width: 550px;">
+          <UCard class="card rounded-xl">
             <div class="icon-and-text">
               <NuxtImg :src="item.icon" width="80" height="80"/>
               <h1 class="name m-2">{{ item.name }}</h1>
@@ -614,7 +614,7 @@ const support = [
       </div>
       <section class="grid grid-cols-2 gap-2">
         <div class="py-6" data-aos="fade-up" v-for="(item, index) in management" :key="index">
-          <UCard class="card rounded-xl" style="background-color: #171717; width: 550px;">
+          <UCard class="card rounded-xl">
             <div class="icon-and-text">
               <NuxtImg :src="item.icon" width="80" height="80"/>
               <h1 class="name m-2">{{ item.name }}</h1>
@@ -671,7 +671,7 @@ const support = [
       </div>
       <section class="grid grid-cols-2 gap-2">
         <div class="py-6" data-aos="fade-up" v-for="(item, index) in teamleitung" :key="index">
-          <UCard class="card rounded-xl" style="background-color: #171717; width: 550px;">
+          <UCard class="card rounded-xl">
             <div class="icon-and-text">
               <NuxtImg :src="item.icon" width="80" height="80"/>
               <h1 class="name m-2">{{ item.name }}</h1>
@@ -728,7 +728,7 @@ const support = [
       </div>
       <section class="grid grid-cols-2 gap-2">
         <div class="py-6"  v-for="(item, index) in development" :key="index">
-          <UCard data-aos="fade-up" class="card rounded-xl" style="width: 550px;">
+          <UCard data-aos="fade-up" class="card rounded-xl">
             <div class="icon-and-text">
               <NuxtImg :src="item.icon" width="80" height="80"/>
               <h1 class="name m-2">{{ item.name }}</h1>
@@ -785,7 +785,7 @@ const support = [
       </div>
       <section class="grid grid-cols-2 gap-2">
         <div class="py-6" data-aos="fade-up" v-for="(item, index) in moderation" :key="index">
-          <UCard class="card rounded-xl" style="background-color: #171717; width: 550px;">
+          <UCard class="card rounded-xl">
             <div class="icon-and-text">
               <NuxtImg :src="item.icon" width="80" height="80"/>
               <h1 class="name m-2">{{ item.name }}</h1>
@@ -842,7 +842,7 @@ const support = [
       </div>
       <section class="grid grid-cols-2 gap-2">
         <div class="py-6" data-aos="fade-up" v-for="(item, index) in support" :key="index">
-          <UCard class="card rounded-xl" style="background-color: #171717; width: 550px;">
+          <UCard class="card rounded-xl">
             <div class="icon-and-text">
               <NuxtImg :src="item.icon" width="80" height="80"/>
               <h1 class="name m-2">{{ item.name }}</h1>
@@ -926,7 +926,10 @@ img {
 }
 
 .card {
+  background-color: transparent;
+  width: 500px;
   padding: 20px 40px;
+  border: 1px solid gray;
   border-radius: 20px;
   font-size: 16px;
   cursor: pointer;
